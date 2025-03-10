@@ -1,0 +1,60 @@
+---------
+PSEUDO CODE
+-----------------------
+Q1. Calculate the Sum of Natural Numbers
+
+Start
+  INPUT n
+  If n>1
+  THEN n = [n(n+1)]/2
+      PRINT n
+  Else 
+      PRINT "ERROR"
+  END IF
+End
+
+Q2. Check for Prime Number
+
+Start
+  INPUT n
+  If n%2 == 0
+  THEN PRINT "PRIME NO."
+  Else 
+      PRINT "NOT A PRIME NO."
+  END IF
+End
+
+Q3. Find the Maximum of Three Numbers
+
+Start
+  INPUT a,b,c
+  If a>b AND a>c
+  THEN PRINT "a is larger"
+  Elsif b>a AND b>c
+  THEN PRINT "b is larger"
+  Else 
+      PRINT "c is larger"
+  END IF
+End
+
+Q4. Factorial Calculation
+
+Start
+  INPUT a
+  fact = 1
+  FOR i from 1 to n do
+  fact = fact*1
+  END FOR
+  PRINT fact
+End
+
+Q5. Check if a Number is Even or Odd
+
+Start
+    INPUT n
+    if n%2 ==0 
+    THEN PRINT 'EVEN NO.'
+    ELSE 
+    PRINT 'ODD NO.'
+    END IF
+End
