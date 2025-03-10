@@ -1,0 +1,36 @@
+Q1
+start
+define n 
+define formula [n(n+1)]/2
+print result
+end
+
+Q2
+start
+define i/p
+check the i/p mod 2 == 0
+print result
+end
+
+Q3
+start
+define 3 i/p numbers (a,b,c)
+conditions if a>b (print(a is larger))
+if b>c (print(b is larger))
+if c>a (print(c is larger))
+end
+
+Q4
+start
+define number (n)
+factorial n *= (defined number which ranges in the desired range)
+print result
+end
+
+Q5
+start
+define a variable as number
+if its divisible by 2 and returns 0 as o/p then ts even or its odd (a%2 == 0)
+print the no. is even
+else the no. is odd
+end
