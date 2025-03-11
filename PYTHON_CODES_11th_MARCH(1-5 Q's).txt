@@ -1,0 +1,73 @@
+Q1 . SUM OF NATURAL NO.s 
+
+n = int(input("Enter a positive integer: "))
+
+if n > 0:
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    print("Sum of natural numbers from 1 to", n, "is:", total)
+else:
+    print("Please enter a positive integer.")
+
+Q2 PRIME NO.
+
+def is_prime(n):
+    if n < 2:
+        return False  
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False  
+    return True  
+n = int(input("Enter a number: "))
+
+if is_prime(n):
+    print(f"{n} is a prime number.")
+else:
+    print(f"{n} is not a prime number.")
+
+
+Q3 LARGER OF THREE NO.S
+
+def find_max(num1, num2, num3):
+    if num1 >= num2 and num1 >= num3:
+        return num1
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+max_number = find_max(num1, num2, num3)
+print(f"The largest number is: {max_number}")
+
+Q4 FACTORIAL
+
+def factorial_recursive(n):
+    if n < 0:
+        return "Factorial is not defined for negative numbers."
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial_recursive(n - 1)
+
+# Input from user
+n = int(input("Enter a number: "))
+
+# Calculate and print factorial
+print(f"The factorial of {n} is: {factorial_recursive(n)}")
+
+
+Q5 EVEN OR ODD
+
+def check_even_odd(n):
+    if n % 2 == 0:
+        return f"{n} is an even number."
+    else:
+        return f"{n} is an odd number."
+
+# Input from user
+n = int(input("Enter a number: "))
+
+# Check and print result
+print(check_even_odd(n))
